@@ -1,0 +1,10 @@
+// Fallbacks
+$sans-serif: 'Source Sans Pro', sans-serif;
+
+
+// Fonts
+@mixin font($font, $weight: 400, $style: normal) {
+	font-family: '#{$font}', $sans-serif;
+	font-weight: $weight;
+	font-style: $style;
+}

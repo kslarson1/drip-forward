@@ -6,18 +6,48 @@
 	min-height: 500px;
 }
 
-p {
-	font-weight: 300;
+.center {
+	text-align: center;
 }
 
-h1 {
-	font-size: 2em;
+.soft_square {
+	border-radius: 10%;
+	margin: 1.5em 0;
+	text-align: center;
 }
 
-h2 {
-	font-size: 1.75em;
+#home_section {
+	min-height: 350px;
+	margin: 1.5em 0;
 }
 
-h3 {
-	font-size: 1.25em;
+#what_section {
+	min-height: 350px;
+	margin: 1.5em 0;
+}
+
+#why_section {
+	min-height: 350px;
+	margin: 1.5em 0;
+}
+
+#how_section {
+	min-height: 350px;
+	margin: 1.5em 0;
+}
+
+#cf7_name {
+	
+}
+
+#cf7_email{
+	
+}
+
+#cf7_subject {
+	
+}
+
+#cf7_message {
+	
 }

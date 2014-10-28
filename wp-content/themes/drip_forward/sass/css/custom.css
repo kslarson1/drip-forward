@@ -1,0 +1,30 @@
+.full-width {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+  min-height: 500px; }
+
+.center {
+  text-align: center; }
+
+.soft_square {
+  border-radius: 10%;
+  margin: 1.5em 0;
+  text-align: center; }
+
+#home_section {
+  min-height: 350px;
+  margin: 1.5em 0; }
+
+#what_section {
+  min-height: 350px;
+  margin: 1.5em 0; }
+
+#why_section {
+  min-height: 350px;
+  margin: 1.5em 0; }
+
+#how_section {
+  min-height: 350px;
+  margin: 1.5em 0; }

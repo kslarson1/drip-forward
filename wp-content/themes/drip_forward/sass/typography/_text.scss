@@ -1,0 +1,26 @@
+* {
+  font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
+}
+
+
+// Color
+$body-copy-color: black;
+
+
+// Text
+body {
+ font-size:100%;
+ color:$body-copy-color;
+ font-family: 'Source Sans Pro', sans-serif;
+ font-weight: 400;
+}
+
+p {}
+
+
+blockquote {}
+
+em {}
+
+strong {}
