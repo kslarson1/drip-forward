@@ -93,26 +93,71 @@ img {
 .center {
   text-align: center; }
 
+.glow {
+  box-shadow: 0 0 1em #8D8D8D; }
+
 .soft_square {
   border-radius: 10%;
   text-align: center; }
 
+/*FONT AWESOME  */
+.fa-code {
+  color: #FF695A; }
+
+.fa-mobile {
+  color: #b7b7b7; }
+
+.fa-line-chart {
+  color: #2B8AFF; }
+
+/*  END OF FONT AWESOME  */
+/*  SECTIONS  */
 #home_section {
-  min-height: 350px;
-  margin: 1.5em 0; }
+  margin: 0;
+  border: 0;
+  padding: 0; }
 
 #what_section {
-  min-height: 350px;
-  margin: 1.5em 0; }
+  margin: 0;
+  border: 0;
+  padding: 0;
+  min-height: 450px;
+  background-color: orange; }
+  #what_section h1 {
+    margin-top: 30px; }
 
 #why_section {
-  min-height: 350px;
-  margin: 1.5em 0; }
+  margin: 0;
+  border: 0;
+  padding: 0;
+  min-height: 550px;
+  background-color: red; }
+  #why_section h1 {
+    margin-top: 30px; }
 
 #how_section {
-  min-height: 350px;
-  margin: 1.5em 0; }
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: green; }
+  #how_section h1 {
+    margin-top: 30px; }
 
+/*  END OF SECTIONS  */
+/*START OF COLUMNS FOR HOW SECTION*/
+.full-width-one-half {
+  width: 50%;
+  float: left; }
+  .full-width-one-half-green {
+    width: 50%;
+    background-color: green;
+    float: left; }
+  .full-width-one-half-gray {
+    background-color: #8D8D8D; }
+
+/*END OF HOW SUBSECTIONS*/
+/*  SPECIFIC TO CONTACT FORM 7  */
+/*END OF CONTACT FORM 7  */
 /*--------------------------------------------------------------
 1.7 Variables (added)
 --------------------------------------------------------------*/
@@ -172,7 +217,7 @@ textarea, input[type="text"], input[type="email"], input[type="tel"], input[type
   width: 15%; }
 .column-5 {
   width: 18.4%; }
-.column-4, .column-quarter, .column-quarters, .column-fourth, .column-fourths, .column-one-quarter, .column-one-quarters {
+.column-4, .column-quarter, .column-quarters, .column-fourth, .column-fourths, .column-one-fourth, .column-one-quarter, .column-one-quarters {
   width: 23.5%; }
 .column-3, .column-third, .column-thirds, .column-one-third, .column-one-thirds {
   width: 32%; }
@@ -180,6 +225,17 @@ textarea, input[type="text"], input[type="email"], input[type="tel"], input[type
   width: 49%; }
 .column-1, .column-full, .column-whole {
   width: 100%; }
+
+/*START OF COLUMNS FOR HOW SECTION*/
+.full-width-one-half {
+  width: 50%;
+  float: left; }
+  .full-width-one-half-green {
+    width: 50%;
+    background-color: green;
+    float: left; }
+  .full-width-one-half-gray {
+    background-color: #8D8D8D; }
 
 /*--------------------------------------------------------------
 2.0 Typography

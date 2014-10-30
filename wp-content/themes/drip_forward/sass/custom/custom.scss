@@ -1,3 +1,6 @@
+$color_logo_blue: #006CED;
+$color_logo_gray: #8D8D8D;
+
 .full-width {
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -10,31 +13,88 @@
 	text-align: center;
 }
 
+.glow {
+	box-shadow: 0 0 1em $color_logo_gray;
+}
+
 .soft_square {
 	border-radius: 10%;
 	text-align: center;
 }
 
+  /*FONT AWESOME  */
+.fa-code {
+	color: #FF695A;
+}
+
+.fa-mobile {
+	color: #b7b7b7;
+}
+
+.fa-line-chart {
+	color: #2B8AFF;
+}
+
+ /*  END OF FONT AWESOME  */
+/*  SECTIONS  */
+
 #home_section {
-	min-height: 350px;
-	margin: 1.5em 0;
+	margin: 0;
+	border: 0;
+	padding: 0;
 }
 
 #what_section {
-	min-height: 350px;
-	margin: 1.5em 0;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	min-height: 450px;
+	background-color: orange;
+	h1 {
+		margin-top: 30px;
+	}
 }
 
 #why_section {
-	min-height: 350px;
-	margin: 1.5em 0;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	min-height: 550px;
+	background-color: red;
+	h1 {
+		margin-top: 30px;
+	}
 }
 
 #how_section {
-	min-height: 350px;
-	margin: 1.5em 0;
+	margin: 0;
+	border: 0;
+	padding: 0;
+	background-color: green;
+	h1 {
+		margin-top: 30px;
+	}
+}
+/*  END OF SECTIONS  */
+
+/*START OF COLUMNS FOR HOW SECTION*/
+.full-width-one-half {
+	width: 50%;
+	float: left;
+	&-green {
+		width: 50%;
+		background-color: green;
+		float: left;
+	}
+	&-gray {
+		background-color: $color_logo_gray;
+	}
 }
 
+
+/*END OF HOW SUBSECTIONS*/
+
+/*  SPECIFIC TO CONTACT FORM 7  */
 #cf7_name {
 	
 }
@@ -50,3 +110,9 @@
 #cf7_message {
 	
 }
+
+  /*END OF CONTACT FORM 7  */
+
+
+
+
