@@ -144,17 +144,6 @@ img {
     margin-top: 30px; }
 
 /*  END OF SECTIONS  */
-/*START OF COLUMNS FOR HOW SECTION*/
-.full-width-one-half {
-  width: 50%;
-  float: left; }
-  .full-width-one-half-green {
-    width: 50%;
-    background-color: green;
-    float: left; }
-  .full-width-one-half-gray {
-    background-color: #8D8D8D; }
-
 /*END OF HOW SUBSECTIONS*/
 /*  SPECIFIC TO CONTACT FORM 7  */
 /*END OF CONTACT FORM 7  */

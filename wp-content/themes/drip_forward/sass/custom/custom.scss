@@ -77,20 +77,6 @@ $color_logo_gray: #8D8D8D;
 }
 /*  END OF SECTIONS  */
 
-/*START OF COLUMNS FOR HOW SECTION*/
-.full-width-one-half {
-	width: 50%;
-	float: left;
-	&-green {
-		width: 50%;
-		background-color: green;
-		float: left;
-	}
-	&-gray {
-		background-color: $color_logo_gray;
-	}
-}
-
 
 /*END OF HOW SUBSECTIONS*/
 
