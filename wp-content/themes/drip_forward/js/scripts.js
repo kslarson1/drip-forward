@@ -12,16 +12,18 @@ function resizeDiv() {
   headerH = $('#masthead').height();
 
     // Your Styles
-    // My Style 1
-    $('.full-width').css({'height': vph - headerH + 'px'});
-    $('.full-width h1').css({'margin-top': (vph / 1.75) * 0.2 + 'px'});
+    // MAKE FULL WIDTH HEIGHT BE FULL VIEWPORT
+    $('.full-width').css({'height': vph + 'px'});
+    // END OF FULL HEIGHT VIEWPORT
 
-     // My style 2
-	$('#what_section').css({'height': (vph / 1.7) - headerH + 'px'});
-	$('#why_section').css({'height': (vph / 1.6) - headerH + 'px'});
-	
-	
+    // MAKE CIRCLE HEIGHT AND WIDTH SAME
+	cirW = $('.circle').width();
+
+    $('.circle').css({'height': cirW + 'px'}); // Setting the Height of a class equal to the viewport height divided by 2
+    // END OF CIRCLE
+
 	// Portfolio Thumbnails
 	portW = $('.portfolio-thumb').width(); //Portfolio thumbnail width
 	$('.portfolio-thumb').css({height: portW + 'px'}); // Setting the height of the thumbnail equal to the width (square)
 }
+
